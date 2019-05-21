@@ -53,14 +53,15 @@ class CategoriesController extends Controller
 
     public function save_page(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-        ]);
+        return $request->all();
+        // $request->validate([
+        //     'name' => 'required',
+        // ]);
 
-        $saveCategories = new Categories;
-        $saveCategories->name = $request->name;
-        $saveCategories->save();
-        return redirect('categories')->with('status_success','Created categories');
+        // $saveCategories = new Categories;
+        // $saveCategories->name = $request->name;
+        // $saveCategories->save();
+        // return redirect('categories')->with('status_success','Created categories');
     }
 
     public function update_page(Categories $categories)

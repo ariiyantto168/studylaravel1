@@ -25,6 +25,7 @@ Route::get('/users', 'UsersController@index')->name('profile');
 // Categories
 Route::get('/categories', 'CategoriesController@index')->name('index');
 Route::get('/categories/create-new', 'CategoriesController@create_page')->name('create_page');
+Route::post('/categories/create-new', 'CategoriesController@save_page')->name('create_page');
 // Route::get('/categories/create-new', 'CategoriesController@save_page')->name('create');
 // Route::get('/categories/update/{categories}', 'CategoriesController@update_page')->name('edit');
 // Route::post('/categories/update/{categories}', 'CategoriesController@update_save')->name('update');

@@ -20,7 +20,7 @@
             <h3 class="box-title">Create New</h3>
           </div>
           <div class="box-body">
-            {{-- {{ Form::open(array('url' => 'items/create-new', 'class' => 'form-horizontal')) }} --}}
+            {{ Form::open(array('url' => 'items/create-new', 'class' => 'form-horizontal')) }}
       
             <div class="form-group">
               <label class="col-sm-2 control-label">Code</label>
@@ -91,7 +91,7 @@
                 <input type="submit" value="Save" class="btn btn-primary">
               </div>
             </div>
-            {{-- {{ Form::close() }} --}}
+            {{ Form::close() }}
           </div>
           <!-- /.box-body -->
         </div>

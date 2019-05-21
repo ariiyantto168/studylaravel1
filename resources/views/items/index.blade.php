@@ -16,5 +16,14 @@
                 <a href="{{url('items/create-new')}}" class="btn btn-box-tool" title="Create New"><i class="fa fa-plus"></i>Create New</a>
             </div>
         </div>
+        <div class="box-body table-responsive">
+            <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                </thead>
+            </table>
+
+        </div>
+        <div>
+            
     </div>
 </section>
