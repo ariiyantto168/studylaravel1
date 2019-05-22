@@ -11,10 +11,10 @@
     </ol>
 </section>
 
-{{-- main content --}}
+<!-- {{-- main content --}} -->
 <section>
 
-    {{-- default box --}}
+    <!-- {{-- default box --}} -->
     <section class="content">
 
             <!-- Default box -->
@@ -27,7 +27,7 @@
                 <div class="form-group">
                   <label class="col-sm-2 control-label">Name</label>
                   <div class="col-sm-10">
-                    {{-- name:name untuk melempar controller ke database --}}
+                    <!-- {{-- name:name untuk melempar controller ke database --}} -->
                     <input type="text" class="form-control" placeholder="Name" name="name" required>
                   </div>
                 </div>

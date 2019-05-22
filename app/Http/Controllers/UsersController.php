@@ -32,4 +32,19 @@ class UsersController extends Controller
         return view('masterpage', $pagemain);
     }
 
+    public function create_page()
+    {
+        $pagecontent = view('users.create');
+
+        // masterpage
+        $pagemain = array(
+            'title' => 'Users Profile',
+            'menu' => 'users',
+            'submenu' => 'users',
+            'pagecontent' => $pagecontent
+        );
+
+        return view('masterpage', $pagemain);
+    }
+
 }

@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // users
 Route::get('/users', 'UsersController@index')->name('profile');
+Route::get('/users/create-new', 'UsersController@create_page')->name('create');
 
 // Categories
 Route::get('/categories', 'CategoriesController@index')->name('index');
